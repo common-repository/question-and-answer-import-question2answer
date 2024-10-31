@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+
+.qa_featured_author {}
+
+.qa_featured_author .single_author{
+	display: inline-block;
+    width: 100%;
+	border-bottom: 1px solid #bbb;
+	padding: 10px 3px;
+}
+
+.qa_featured_author .single_author:last-child{
+	border-bottom: none;
+}
+
+.qa_featured_author .author_avatar {
+	float: left;
+}
+
+.qa_featured_author .author_name {
+	margin-left: 55px;
+}
+
+.qa_featured_author .author_answered {
+    margin-left: 55px;
+    margin-top: 10px;
+}
+

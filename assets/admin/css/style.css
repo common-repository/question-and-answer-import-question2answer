@@ -1,0 +1,37 @@
+/*
+Admin css
+*/
+
+
+@import 'admin-metabox.css';
+
+
+.qa-pending-question-count {
+	background-color:#FE8163 !important;
+}
+
+.column-qa-status { text-align:center !important; }
+
+.qa_queued, 
+.qa_publish, 
+.qa_solved, 
+.qa_hold {
+    color: #fff;
+    width: 130px;
+    text-align: center;
+    padding: 5px 0;
+	margin: 10px auto;
+    border-radius: 3px;
+}
+
+.qa_queued 	{ background-color: #f39c12; }
+.qa_publish 	{ background-color: #1488C4; }
+.qa_solved 	{ background-color: #27ae60; }
+.qa_hold 	{ background-color: #f1c40f; }
+
+
+
+
+.section_title {
+	margin:3px 0;
+}
